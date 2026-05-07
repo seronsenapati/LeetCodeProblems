@@ -40,7 +40,8 @@ def organize_files():
 
 def generate_readme():
     content = "# LeetCode Solutions\n\n"
-    content += "My personal LeetCode progress tracker. Solutions are automatically organized into folders by hundreds.\n\n"
+    content += "My personal LeetCode progress tracker. Solutions are automatically organized into folders by ranges.\n\n"
+    content += "[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)\n\n"
     
     # Collect all folders
     folders = sorted([f for f in os.listdir('.') if os.path.isdir(f) and re.match(r'^\d+-\d+$', f)])

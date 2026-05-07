@@ -1,6 +1,8 @@
 # LeetCode Solutions
 
-My personal LeetCode progress tracker. Solutions are automatically organized into folders by hundreds.
+My personal LeetCode progress tracker. Solutions are automatically organized into folders by ranges.
+
+[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
 ## Quick Navigation
 - [0001-1000](#0001-1000)
