@@ -20,6 +20,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 48 | Rotate Image | [JAVA](0001-1000/48_rotate_image.java) | [Problem](https://leetcode.com/problems/rotate-image/) |
 | 61 | Rotate List | [JAVA](0001-1000/61_rotate_list.java) | [Problem](https://leetcode.com/problems/rotate-list/) |
 | 189 | Rotate Array | [JAVA](0001-1000/189_rotate_array.java) | [Problem](https://leetcode.com/problems/rotate-array/) |
+| 283 | Move Zeroes | [JAVA](0001-1000/283_move_zeroes.java) | [Problem](https://leetcode.com/problems/move-zeroes/) |
 | 485 | Max Consecutive Ones | [JAVA](0001-1000/485_max_consecutive_ones.java) | [Problem](https://leetcode.com/problems/max-consecutive-ones/) |
 | 796 | Rotate String | [JAVA](0001-1000/796_Rotate_String.java) | [Problem](https://leetcode.com/problems/rotate-string/) |
 
