@@ -25,6 +25,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 
 | Problem Number | Title | Solution | LeetCode Link |
 |---|-------|----------|---------------|
+| 1752 | Check If Array Is Sorted And Rotated | [JAVA](1001-2000/1752_check_if_array_is_sorted_and_rotated.java) | [Problem](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
 | 1861 | Rotating The Box | [JAVA](1001-2000/1861_rotating_the_box.java) | [Problem](https://leetcode.com/problems/rotating-the-box/) |
 
 ## 3001-4000
