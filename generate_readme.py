@@ -48,9 +48,10 @@ def generate_readme():
     
     # Quick Links
     if folders:
-        content += "## Quick Navigation\n"
+        content += "## Quick Navigation (Problem Numbers)\n"
         for folder in folders:
-            content += f"- [{folder}](#{folder})\n"
+            label = folder.replace('-', ' to ')
+            content += f"- [Problems {label}](#{folder})\n"
         content += "\n---\n"
 
     for folder in folders:

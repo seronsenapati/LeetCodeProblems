@@ -4,10 +4,10 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
-## Quick Navigation
-- [0001-1000](#0001-1000)
-- [1001-2000](#1001-2000)
-- [3001-4000](#3001-4000)
+## Quick Navigation (Problem Numbers)
+- [Problems 0001 to 1000](#0001-1000)
+- [Problems 1001 to 2000](#1001-2000)
+- [Problems 3001 to 4000](#3001-4000)
 
 ---
 ## 0001-1000
