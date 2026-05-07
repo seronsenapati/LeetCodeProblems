@@ -12,6 +12,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 
 | # | Title | Solution | LeetCode Link |
 |---|-------|----------|---------------|
+| 1 | Two Sum | [JAVA](0001-1000/1_two_sum.java) | [Problem](https://leetcode.com/problems/two-sum/) |
 | 48 | Rotate Image | [JAVA](0001-1000/48_rotate_image.java) | [Problem](https://leetcode.com/problems/rotate-image/) |
 | 61 | Rotate List | [JAVA](0001-1000/61_rotate_list.java) | [Problem](https://leetcode.com/problems/rotate-list/) |
 | 796 | Rotate String | [JAVA](0001-1000/796_Rotate_String.java) | [Problem](https://leetcode.com/problems/rotate-string/) |
