@@ -4,6 +4,9 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
+## Stats
+- Total Questions Solved: **13**
+
 ## Quick Navigation
 - [0001-1000](#0001-1000)
 - [1001-2000](#1001-2000)

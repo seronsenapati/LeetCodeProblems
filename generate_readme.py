@@ -45,6 +45,16 @@ def generate_readme():
     
     # Collect all folders
     folders = sorted([f for f in os.listdir('.') if os.path.isdir(f) and re.match(r'^\d+-\d+$', f)])
+
+    total_solved = 0
+    for folder in folders:
+        files = os.listdir(folder)
+        for f in files:
+            if parse_filename(f):
+                total_solved += 1
+
+    content += "## Stats\n"
+    content += f"- Total Questions Solved: **{total_solved}**\n\n"
     
     # Quick Links
     if folders:
