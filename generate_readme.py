@@ -55,7 +55,7 @@ def generate_readme():
 
     for folder in folders:
         content += f"## {folder}\n\n"
-        content += "| # | Title | Solution | LeetCode Link |\n"
+        content += "| Problem Number | Title | Solution | LeetCode Link |\n"
         content += "|---|-------|----------|---------------|\n"
         
         # Sort files by problem number
