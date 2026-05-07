@@ -16,6 +16,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 |---|-------|----------|---------------|
 | 1 | Two Sum | [JAVA](0001-1000/1_two_sum.java) | [Problem](https://leetcode.com/problems/two-sum/) |
 | 7 | Reverse Integer | [JAVA](0001-1000/7_reverse_integer.java) | [Problem](https://leetcode.com/problems/reverse-integer/) |
+| 26 | Remove Duplicates From Sorted Array | [JAVA](0001-1000/26_remove_duplicates_from_sorted_array.java) | [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
 | 48 | Rotate Image | [JAVA](0001-1000/48_rotate_image.java) | [Problem](https://leetcode.com/problems/rotate-image/) |
 | 61 | Rotate List | [JAVA](0001-1000/61_rotate_list.java) | [Problem](https://leetcode.com/problems/rotate-list/) |
 | 485 | Max Consecutive Ones | [JAVA](0001-1000/485_max_consecutive_ones.java) | [Problem](https://leetcode.com/problems/max-consecutive-ones/) |
