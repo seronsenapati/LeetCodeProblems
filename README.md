@@ -11,6 +11,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 - [0001-1000](#0001-1000)
 - [1001-2000](#1001-2000)
 - [3001-4000](#3001-4000)
+- [Custom Questions](#custom-questions-non-leetcode)
 
 ---
 ## 0001-1000
@@ -52,3 +53,5 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | Question Name | Solution |
 |---|----------|
 | Print Subarray with Maximum Subarray Sum | [JAVA](custom/print_max_subarray.java) |
+| Example Question 1 | [JAVA](custom/example_question_1.java) |
+| Example Question 2 | [JAVA](custom/example_question_2.java) |
