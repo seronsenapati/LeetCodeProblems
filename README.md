@@ -5,7 +5,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
 ## Stats
-- Total Questions Solved: **16**
+- Total Questions Solved: **17**
 
 ## Quick Navigation
 - [0001-1000](#0001-1000)
@@ -21,6 +21,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 7 | Reverse Integer | [JAVA](0001-1000/7_reverse_integer.java) | [Problem](https://leetcode.com/problems/reverse-integer/) |
 | 26 | Remove Duplicates From Sorted Array | [JAVA](0001-1000/26_remove_duplicates_from_sorted_array.java) | [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
 | 48 | Rotate Image | [JAVA](0001-1000/48_rotate_image.java) | [Problem](https://leetcode.com/problems/rotate-image/) |
+| 53 | Maximum Subarray | [JAVA](0001-1000/53_maximum_subarray.java) | [Problem](https://leetcode.com/problems/maximum-subarray/) |
 | 61 | Rotate List | [JAVA](0001-1000/61_rotate_list.java) | [Problem](https://leetcode.com/problems/rotate-list/) |
 | 136 | Single Number | [JAVA](0001-1000/136_single_number.java) | [Problem](https://leetcode.com/problems/single-number/) |
 | 169 | Majority Element | [JAVA](0001-1000/169_majority_element.java) | [Problem](https://leetcode.com/problems/majority-element/) |
@@ -52,4 +53,3 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 |---|----------|
 | Example Question 1 | [JAVA](custom/example_question_1.java) |
 | Example Question 2 | [JAVA](custom/example_question_2.java) |
-
