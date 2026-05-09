@@ -44,3 +44,55 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 3629 | Minimum Jumps To Reach End Via Prime Teleportation | [JAVA](3001-4000/3629_minimum_jumps_to_reach_end_via_prime_teleportation.java) | [Problem](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/) |
 | 3660 | Jump Game Ix | [JAVA](3001-4000/3660_jump_game_ix.java) | [Problem](https://leetcode.com/problems/jump-game-ix/) |
 
+---
+
+## Custom Q&A (Non-LeetCode)
+
+This section contains custom questions and answers that are not part of the official LeetCode platform. These problems are created for learning, interview preparation, or supplementary practice.
+
+### Question Template
+
+**Q: [Question Title]**
+
+**Problem Statement:**
+[Describe the problem here]
+
+**Solution:**
+```java
+[Your Java solution here]
+```
+
+**Explanation:**
+[Explain your approach and time/space complexity]
+
+---
+
+### Add Your Questions Below
+
+Add new custom questions and answers in the format above. Examples:
+
+**Q: Find the Most Frequent Element in Array**
+
+**Problem Statement:**
+Given an array of integers, find the element that appears most frequently.
+
+**Solution:**
+```java
+public int findMostFrequent(int[] nums) {
+    Map<Integer, Integer> map = new HashMap<>();
+    int max = 0, result = 0;
+    for (int num : nums) {
+        int count = map.getOrDefault(num, 0) + 1;
+        map.put(num, count);
+        if (count > max) {
+            max = count;
+            result = num;
+        }
+    }
+    return result;
+}
+```
+
+**Explanation:**
+Using a HashMap to track frequencies. Time: O(n), Space: O(n)
+
