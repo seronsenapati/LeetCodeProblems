@@ -7,6 +7,60 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 ## Stats
 - Total Questions Solved: **16**
 
+## 🔍 Search Problems
+
+<div style="margin: 20px 0;">
+  <input type="text" id="searchBox" placeholder="Search by problem number (e.g., 1, 53, 1752)..." style="width: 100%; padding: 10px; font-size: 16px; border: 2px solid #0366d6; border-radius: 5px;">
+  <p id="searchResult" style="margin-top: 10px; color: #666;"></p>
+</div>
+
+<script>
+document.getElementById('searchBox').addEventListener('input', function() {
+  const searchTerm = this.value.trim();
+  const tables = document.querySelectorAll('table');
+  const sections = document.querySelectorAll('h2');
+  let found = 0;
+  
+  if (searchTerm === '') {
+    tables.forEach(table => table.style.display = '');
+    sections.forEach(section => {
+      if (section.textContent.includes('0001-1000') || 
+          section.textContent.includes('1001-2000') || 
+          section.textContent.includes('3001-4000')) {
+        section.style.display = '';
+      }
+    });
+    document.getElementById('searchResult').textContent = '';
+    return;
+  }
+  
+  tables.forEach((table, idx) => {
+    const rows = table.querySelectorAll('tbody tr');
+    let hasMatch = false;
+    rows.forEach(row => {
+      const problemNum = row.cells[0].textContent.trim();
+      if (problemNum.includes(searchTerm)) {
+        row.style.display = '';
+        hasMatch = true;
+        found++;
+      } else {
+        row.style.display = 'none';
+      }
+    });
+    table.style.display = hasMatch ? '' : 'none';
+    
+    if (hasMatch) {
+      sections[idx + 2].style.display = '';
+    } else {
+      sections[idx + 2].style.display = 'none';
+    }
+  });
+  
+  document.getElementById('searchResult').textContent = 
+    searchTerm ? `Found ${found} problem${found !== 1 ? 's' : ''}` : '';
+});
+</script>
+
 ## Quick Navigation
 - [0001-1000](#0001-1000)
 - [1001-2000](#1001-2000)
