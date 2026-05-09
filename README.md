@@ -21,7 +21,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 7 | Reverse Integer | [JAVA](0001-1000/7_reverse_integer.java) | [Problem](https://leetcode.com/problems/reverse-integer/) |
 | 26 | Remove Duplicates From Sorted Array | [JAVA](0001-1000/26_remove_duplicates_from_sorted_array.java) | [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
 | 48 | Rotate Image | [JAVA](0001-1000/48_rotate_image.java) | [Problem](https://leetcode.com/problems/rotate-image/) |
-| 53 | Maximum Subarray (Kadane's Algorithm) | [JAVA](0001-1000/53_maximum_subarray.java) | [Problem](https://leetcode.com/problems/maximum-subarray/) |
+| 53 | Maximum Subarray | [JAVA](0001-1000/53_maximum_subarray.java) | [Problem](https://leetcode.com/problems/maximum-subarray/) |
 | 61 | Rotate List | [JAVA](0001-1000/61_rotate_list.java) | [Problem](https://leetcode.com/problems/rotate-list/) |
 | 136 | Single Number | [JAVA](0001-1000/136_single_number.java) | [Problem](https://leetcode.com/problems/single-number/) |
 | 169 | Majority Element | [JAVA](0001-1000/169_majority_element.java) | [Problem](https://leetcode.com/problems/majority-element/) |
@@ -45,12 +45,3 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 3629 | Minimum Jumps To Reach End Via Prime Teleportation | [JAVA](3001-4000/3629_minimum_jumps_to_reach_end_via_prime_teleportation.java) | [Problem](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/) |
 | 3660 | Jump Game Ix | [JAVA](3001-4000/3660_jump_game_ix.java) | [Problem](https://leetcode.com/problems/jump-game-ix/) |
 
----
-
-## Custom Questions (Non-LeetCode)
-
-| Question Name | Solution |
-|---|----------|
-| Print Subarray with Maximum Subarray Sum | [JAVA](custom/print_max_subarray.java) |
-| Example Question 1 | [JAVA](custom/example_question_1.java) |
-| Example Question 2 | [JAVA](custom/example_question_2.java) |
