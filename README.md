@@ -45,10 +45,3 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 3629 | Minimum Jumps To Reach End Via Prime Teleportation | [JAVA](3001-4000/3629_minimum_jumps_to_reach_end_via_prime_teleportation.java) | [Problem](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/) |
 | 3660 | Jump Game Ix | [JAVA](3001-4000/3660_jump_game_ix.java) | [Problem](https://leetcode.com/problems/jump-game-ix/) |
 
----
-
-## Custom Questions (Non-LeetCode)
-
-| Question Name | Solution |
-|---|----------|
-| Print Subarray with Maximum Subarray Sum | [JAVA](custom/print_max_subarray.java) |
