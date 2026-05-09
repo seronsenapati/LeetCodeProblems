@@ -53,5 +53,3 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | Question Name | Solution |
 |---|----------|
 | Print Subarray with Maximum Subarray Sum | [JAVA](custom/print_max_subarray.java) |
-| Example Question 1 | [JAVA](custom/example_question_1.java) |
-| Example Question 2 | [JAVA](custom/example_question_2.java) |
