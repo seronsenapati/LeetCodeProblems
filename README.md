@@ -50,6 +50,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 
 | Question Name | Solution |
 |---|----------|
+| Maximum Subarray (Kadane's Algorithm) | [JAVA](custom/53_maximum_subarray.java) |
 | Example Question 1 | [JAVA](custom/example_question_1.java) |
 | Example Question 2 | [JAVA](custom/example_question_2.java) |
 
