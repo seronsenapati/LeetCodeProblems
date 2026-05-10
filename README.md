@@ -5,13 +5,13 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
 ## Stats
-- Total Questions Solved: **17**
+- Total Questions Solved: **18**
 
 ## Quick Navigation
 - [0001-1000](#0001-1000)
 - [1001-2000](#1001-2000)
+- [2001-3000](#2001-3000)
 - [3001-4000](#3001-4000)
-- [Custom Questions](#custom-questions-non-leetcode)
 
 ---
 ## 0001-1000
@@ -38,6 +38,12 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 1752 | Check If Array Is Sorted And Rotated | [JAVA](1001-2000/1752_check_if_array_is_sorted_and_rotated.java) | [Problem](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
 | 1861 | Rotating The Box | [JAVA](1001-2000/1861_rotating_the_box.java) | [Problem](https://leetcode.com/problems/rotating-the-box/) |
 | 1914 | Cyclically Rotating A Grid | [JAVA](1001-2000/1914_cyclically_rotating_a_grid.java) | [Problem](https://leetcode.com/problems/cyclically-rotating-a-grid/) |
+
+## 2001-3000
+
+| Problem Number | Title | Solution | LeetCode Link |
+|---|-------|----------|---------------|
+| 2770 | Maximum Number Of Jumps To Reach The Last Index | [JAVA](2001-3000/2770_maximum_number_of_jumps_to_reach_the_last_index.java) | [Problem](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) |
 
 ## 3001-4000
 
