@@ -12,6 +12,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 - [1001-2000](#1001-2000)
 - [2001-3000](#2001-3000)
 - [3001-4000](#3001-4000)
+- [Custom Questions](#custom-questions-non-leetcode)
 
 ---
 ## 0001-1000
@@ -52,3 +53,10 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 3629 | Minimum Jumps To Reach End Via Prime Teleportation | [JAVA](3001-4000/3629_minimum_jumps_to_reach_end_via_prime_teleportation.java) | [Problem](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/) |
 | 3660 | Jump Game Ix | [JAVA](3001-4000/3660_jump_game_ix.java) | [Problem](https://leetcode.com/problems/jump-game-ix/) |
 
+---
+
+## Custom Questions (Non-LeetCode)
+
+| Question Name | Solution |
+|---|----------|
+| Print Max Subarray | [JAVA](custom/print_max_subarray.java) |

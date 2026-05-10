@@ -43,8 +43,10 @@ def generate_readme():
     content += "My personal LeetCode progress tracker. Solutions are automatically organized into folders by ranges.\n\n"
     content += "[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)\n\n"
     
-    # Collect all folders
+    # Collect all numbered range folders
     folders = sorted([f for f in os.listdir('.') if os.path.isdir(f) and re.match(r'^\d+-\d+$', f)])
+    custom_folder = "custom"
+    has_custom = os.path.isdir(custom_folder)
 
     total_solved = 0
     for folder in folders:
@@ -61,6 +63,8 @@ def generate_readme():
         content += "## Quick Navigation\n"
         for folder in folders:
             content += f"- [{folder}](#{folder})\n"
+        if has_custom:
+            content += "- [Custom Questions](#custom-questions-non-leetcode)\n"
         content += "\n---\n"
 
     for folder in folders:
@@ -83,6 +87,22 @@ def generate_readme():
             problem_link = f"[Problem]({get_problem_link(slug)})"
             content += f"| {num} | {title} | {sol_link} | {problem_link} |\n"
         content += "\n"
+
+    # Add custom (non-LeetCode) questions if present
+    if has_custom:
+        custom_files = [f for f in os.listdir(custom_folder) if os.path.isfile(os.path.join(custom_folder, f)) and not f.startswith('.')]
+        custom_files.sort()
+
+        content += "---\n\n"
+        content += "## Custom Questions (Non-LeetCode)\n\n"
+        content += "| Question Name | Solution |\n"
+        content += "|---|----------|\n"
+
+        for filename in custom_files:
+            title = os.path.splitext(filename)[0].replace('_', ' ').title()
+            extension = filename.split('.')[-1].upper()
+            sol_link = f"[{extension}]({custom_folder}/{filename.replace(' ', '%20')})"
+            content += f"| {title} | {sol_link} |\n"
 
     with open(README_FILE, "w") as f:
         f.write(content)
