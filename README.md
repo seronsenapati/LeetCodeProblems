@@ -60,4 +60,4 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 
 | Question Name | Solution |
 |---|----------|
-| Print Max Subarray | [JAVA](custom/print_max_subarray.java) |
+| Print Subarray with Maximum Subarray Sum (extended version of Maximum Subarray (Kadane's Algorithm) ). | [JAVA](custom/print_max_subarray.java) |
