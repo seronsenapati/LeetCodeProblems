@@ -49,7 +49,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | Problem Number | Title | Solution | LeetCode Link |
 |---|-------|----------|---------------|
 | 2149 | Rearrange Array Elements By Sign | [JAVA](2001-3000/2149_rearrange_array_elements_by_sign.java) | [Problem](https://leetcode.com/problems/rearrange-array-elements-by-sign/) |
-| 2553 | Separate The Digits In An Array | [JAVA](2001-3000/2553_separate_digits_in_an_array.java) | [Problem](https://leetcode.com/problems/separate-the-digits-in-an-array/) |
+| 2553 | Separate Digits In An Array | [JAVA](2001-3000/2553_separate_digits_in_an_array.java) | [Problem](https://leetcode.com/problems/separate-digits-in-an-array/) |
 | 2770 | Maximum Number Of Jumps To Reach The Last Index | [JAVA](2001-3000/2770_maximum_number_of_jumps_to_reach_the_last_index.java) | [Problem](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) |
 
 ## 3001-4000
@@ -65,4 +65,4 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 
 | Question Name | Solution |
 |---|----------|
-| Print Subarray with Maximum Subarray Sum (extended version of Maximum Subarray (Kadane's Algorithm) ) | [JAVA](custom/print_max_subarray.java) |
+| Print Max Subarray | [JAVA](custom/print_max_subarray.java) |
