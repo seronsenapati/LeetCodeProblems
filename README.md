@@ -5,7 +5,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
 ## Stats
-- Total Questions Solved: **27**
+- Total Questions Solved: **28**
 
 ## Quick Navigation
 - [0001-1000](#0001-1000)
@@ -28,6 +28,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 54 | Spiral Matrix | [JAVA](0001-1000/54_spiral_matrix.java) | [Problem](https://leetcode.com/problems/spiral-matrix/) |
 | 61 | Rotate List | [JAVA](0001-1000/61_rotate_list.java) | [Problem](https://leetcode.com/problems/rotate-list/) |
 | 73 | Set Matrix Zeroes | [JAVA](0001-1000/73_set_matrix_zeroes.java) | [Problem](https://leetcode.com/problems/set-matrix-zeroes/) |
+| 118 | Pascals Triangle | [JAVA](0001-1000/118_pascals_triangle.java) | [Problem](https://leetcode.com/problems/pascals-triangle/) |
 | 121 | Best Time To Buy And Sell Stock | [JAVA](0001-1000/121_best_time_to_buy_and_sell_stock.java) | [Problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
 | 128 | Longest Consecutive Sequence | [JAVA](0001-1000/128_longest_consecutive_sequence.java) | [Problem](https://leetcode.com/problems/longest-consecutive-sequence/) |
 | 136 | Single Number | [JAVA](0001-1000/136_single_number.java) | [Problem](https://leetcode.com/problems/single-number/) |
