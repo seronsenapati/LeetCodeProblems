@@ -5,7 +5,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
 ## Stats
-- Total Questions Solved: **29**
+- Total Questions Solved: **30**
 
 ## Quick Navigation
 - [0001-1000](#0001-1000)
@@ -21,6 +21,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 |---|-------|----------|---------------|
 | 1 | Two Sum | [JAVA](0001-1000/1_two_sum.java) | [Problem](https://leetcode.com/problems/two-sum/) |
 | 7 | Reverse Integer | [JAVA](0001-1000/7_reverse_integer.java) | [Problem](https://leetcode.com/problems/reverse-integer/) |
+| 15 | 3Sum | [JAVA](0001-1000/15_3sum.java) | [Problem](https://leetcode.com/problems/3sum/) |
 | 26 | Remove Duplicates From Sorted Array | [JAVA](0001-1000/26_remove_duplicates_from_sorted_array.java) | [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
 | 31 | Next Permutation | [JAVA](0001-1000/31_next_permutation.java) | [Problem](https://leetcode.com/problems/next-permutation/) |
 | 48 | Rotate Image | [JAVA](0001-1000/48_rotate_image.java) | [Problem](https://leetcode.com/problems/rotate-image/) |
