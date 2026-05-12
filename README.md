@@ -34,7 +34,11 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 136 | Single Number | [JAVA](0001-1000/136_single_number.java) | [Problem](https://leetcode.com/problems/single-number/) |
 | 169 | Majority Element | [JAVA](0001-1000/169_majority_element.java) | [Problem](https://leetcode.com/problems/majority-element/) |
 | 189 | Rotate Array | [JAVA](0001-1000/189_rotate_array.java) | [Problem](https://leetcode.com/problems/rotate-array/) |
-| 229 | Majority Element Ii | [JAVA](0001-1000/229_majority_element_ii.java) | [Problem](https://leetcode.com/problems/majority-element-ii/) |
+<<<<<<< HEAD
+| 229 | Majority Element II (n/3 times) | [JAVA](0001-1000/229_majority_element_ii.java) | [Problem](https://leetcode.com/problems/majority-element-ii/) |
+=======
+| 229 | Majority Element II (n/3 times) | [JAVA](0001-1000/229_majority_element_ii.java) | [Problem](https://leetcode.com/problems/majority-element-ii/) |
+>>>>>>> 2179490 (Preserve manual README titles)
 | 283 | Move Zeroes | [JAVA](0001-1000/283_move_zeroes.java) | [Problem](https://leetcode.com/problems/move-zeroes/) |
 | 485 | Max Consecutive Ones | [JAVA](0001-1000/485_max_consecutive_ones.java) | [Problem](https://leetcode.com/problems/max-consecutive-ones/) |
 | 560 | Subarray Sum Equals K | [JAVA](0001-1000/560_subarray_sum_equals_k.java) | [Problem](https://leetcode.com/problems/subarray-sum-equals-k/) |

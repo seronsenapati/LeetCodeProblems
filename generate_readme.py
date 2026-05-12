@@ -10,6 +10,9 @@ def get_folder_name(number):
 README_FILE = "README.md"
 BASE_URL = "https://leetcode.com/problems/"
 
+TABLE_ROW_RE = re.compile(r'^\|\s*(\d+)\s*\|\s*(.*?)\s*\|\s*\[(?:[A-Z]+)\]\(([^)]+)\)\s*\|')
+CUSTOM_ROW_RE = re.compile(r'^\|\s*(.*?)\s*\|\s*\[(?:[A-Z]+)\]\(([^)]+)\)\s*\|')
+
 def get_problem_link(title_slug):
     # Converts 'rotate_box' to 'rotate-box'
     return BASE_URL + title_slug.replace('_', '-').strip('-') + "/"
@@ -23,6 +26,39 @@ def parse_filename(filename):
         title = title_slug.replace('_', ' ').title()
         return number, title, title_slug
     return None
+
+def load_existing_titles():
+    titles = {}
+    if not os.path.exists(README_FILE):
+        return titles
+
+    current_section = None
+    with open(README_FILE, "r", encoding="utf-8") as f:
+        for raw_line in f:
+            line = raw_line.rstrip("\n")
+
+            if line.startswith("## "):
+                current_section = line[3:].strip()
+                continue
+
+            if not line.startswith("|"):
+                continue
+
+            if current_section == "Custom Questions (Non-LeetCode)":
+                match = CUSTOM_ROW_RE.match(line)
+                if match:
+                    title = match.group(1).strip()
+                    path = match.group(2).strip()
+                    titles[path] = title
+            else:
+                match = TABLE_ROW_RE.match(line)
+                if match:
+                    number = match.group(1).strip()
+                    title = match.group(2).strip()
+                    path = match.group(3).strip()
+                    titles[(number, path)] = title
+
+    return titles
 
 def organize_files():
     # Move files into respective range folders if they are in the root
@@ -39,6 +75,7 @@ def organize_files():
                 os.rename(filename, new_path)
 
 def generate_readme():
+    existing_titles = load_existing_titles()
     content = "# LeetCode Solutions\n\n"
     content += "My personal LeetCode progress tracker. Solutions are automatically organized into folders by ranges.\n\n"
     content += "[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)\n\n"
@@ -83,6 +120,7 @@ def generate_readme():
         parsed_files.sort(key=lambda x: x[0])
 
         for num, title, slug, filename in parsed_files:
+            title = existing_titles.get((str(num), f"{folder}/{filename}"), title)
             sol_link = f"[{filename.split('.')[-1].upper()}]({folder}/{filename.replace(' ', '%20')})"
             problem_link = f"[Problem]({get_problem_link(slug)})"
             content += f"| {num} | {title} | {sol_link} | {problem_link} |\n"
@@ -102,6 +140,7 @@ def generate_readme():
             title = os.path.splitext(filename)[0].replace('_', ' ').title()
             extension = filename.split('.')[-1].upper()
             sol_link = f"[{extension}]({custom_folder}/{filename.replace(' ', '%20')})"
+            title = existing_titles.get(f"{custom_folder}/{filename}", title)
             content += f"| {title} | {sol_link} |\n"
 
     with open(README_FILE, "w") as f:
