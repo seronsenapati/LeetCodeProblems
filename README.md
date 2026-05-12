@@ -5,7 +5,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
 ## Stats
-- Total Questions Solved: **25**
+- Total Questions Solved: **26**
 
 ## Quick Navigation
 - [0001-1000](#0001-1000)
@@ -41,6 +41,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 
 | Problem Number | Title | Solution | LeetCode Link |
 |---|-------|----------|---------------|
+| 1665 | Minimum Initial Energy To Finish Tasks | [JAVA](1001-2000/1665_minimum_initial_energy_to_finish_tasks.java) | [Problem](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) |
 | 1752 | Check If Array Is Sorted And Rotated | [JAVA](1001-2000/1752_check_if_array_is_sorted_and_rotated.java) | [Problem](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
 | 1861 | Rotating The Box | [JAVA](1001-2000/1861_rotating_the_box.java) | [Problem](https://leetcode.com/problems/rotating-the-box/) |
 | 1914 | Cyclically Rotating A Grid | [JAVA](1001-2000/1914_cyclically_rotating_a_grid.java) | [Problem](https://leetcode.com/problems/cyclically-rotating-a-grid/) |
