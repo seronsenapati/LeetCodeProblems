@@ -5,7 +5,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
 ## Stats
-- Total Questions Solved: **26**
+- Total Questions Solved: **27**
 
 ## Quick Navigation
 - [0001-1000](#0001-1000)
@@ -35,6 +35,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 189 | Rotate Array | [JAVA](0001-1000/189_rotate_array.java) | [Problem](https://leetcode.com/problems/rotate-array/) |
 | 283 | Move Zeroes | [JAVA](0001-1000/283_move_zeroes.java) | [Problem](https://leetcode.com/problems/move-zeroes/) |
 | 485 | Max Consecutive Ones | [JAVA](0001-1000/485_max_consecutive_ones.java) | [Problem](https://leetcode.com/problems/max-consecutive-ones/) |
+| 560 | Subarray Sum Equals K | [JAVA](0001-1000/560_subarray_sum_equals_k.java) | [Problem](https://leetcode.com/problems/subarray-sum-equals-k/) |
 | 796 | Rotate String | [JAVA](0001-1000/796_Rotate_String.java) | [Problem](https://leetcode.com/problems/rotate-string/) |
 
 ## 1001-2000
