@@ -32,7 +32,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 121 | Best Time To Buy And Sell Stock | [JAVA](0001-1000/121_best_time_to_buy_and_sell_stock.java) | [Problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
 | 128 | Longest Consecutive Sequence | [JAVA](0001-1000/128_longest_consecutive_sequence.java) | [Problem](https://leetcode.com/problems/longest-consecutive-sequence/) |
 | 136 | Single Number | [JAVA](0001-1000/136_single_number.java) | [Problem](https://leetcode.com/problems/single-number/) |
-| 169 | Majority Element | [JAVA](0001-1000/169_majority_element.java) | [Problem](https://leetcode.com/problems/majority-element/) |
+| 169 | Majority Element (n/2 times) | [JAVA](0001-1000/169_majority_element.java) | [Problem](https://leetcode.com/problems/majority-element/) |
 | 189 | Rotate Array | [JAVA](0001-1000/189_rotate_array.java) | [Problem](https://leetcode.com/problems/rotate-array/) |
 | 283 | Move Zeroes | [JAVA](0001-1000/283_move_zeroes.java) | [Problem](https://leetcode.com/problems/move-zeroes/) |
 | 485 | Max Consecutive Ones | [JAVA](0001-1000/485_max_consecutive_ones.java) | [Problem](https://leetcode.com/problems/max-consecutive-ones/) |
