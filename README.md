@@ -24,7 +24,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 26 | Remove Duplicates From Sorted Array | [JAVA](0001-1000/26_remove_duplicates_from_sorted_array.java) | [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
 | 31 | Next Permutation | [JAVA](0001-1000/31_next_permutation.java) | [Problem](https://leetcode.com/problems/next-permutation/) |
 | 48 | Rotate Image | [JAVA](0001-1000/48_rotate_image.java) | [Problem](https://leetcode.com/problems/rotate-image/) |
-| 53 | Maximum Subarray | [JAVA](0001-1000/53_maximum_subarray.java) | [Problem](https://leetcode.com/problems/maximum-subarray/) |
+| 53 | Maximum Subarray (Kadane's Algorithm) | [JAVA](0001-1000/53_maximum_subarray.java) | [Problem](https://leetcode.com/problems/maximum-subarray/) |
 | 54 | Spiral Matrix | [JAVA](0001-1000/54_spiral_matrix.java) | [Problem](https://leetcode.com/problems/spiral-matrix/) |
 | 61 | Rotate List | [JAVA](0001-1000/61_rotate_list.java) | [Problem](https://leetcode.com/problems/rotate-list/) |
 | 73 | Set Matrix Zeroes | [JAVA](0001-1000/73_set_matrix_zeroes.java) | [Problem](https://leetcode.com/problems/set-matrix-zeroes/) |
@@ -70,4 +70,4 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 
 | Question Name | Solution |
 |---|----------|
-| Print Max Subarray | [JAVA](custom/print_max_subarray.java) |
+| Print Max Subarray (extended version of Maximum Subarray -> Kadane's Algorithm) | [JAVA](custom/print_max_subarray.java) |
