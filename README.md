@@ -5,7 +5,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
 ## Stats
-- Total Questions Solved: **32**
+- Total Questions Solved: **33**
 
 ## Quick Navigation
 - [0001-1000](#0001-1000)
@@ -59,6 +59,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 2149 | Rearrange Array Elements By Sign | [JAVA](2001-3000/2149_rearrange_array_elements_by_sign.java) | [Problem](https://leetcode.com/problems/rearrange-array-elements-by-sign/) |
 | 2553 | Separate Digits In An Array | [JAVA](2001-3000/2553_separate_digits_in_an_array.java) | [Problem](https://leetcode.com/problems/separate-digits-in-an-array/) |
 | 2770 | Maximum Number Of Jumps To Reach The Last Index | [JAVA](2001-3000/2770_maximum_number_of_jumps_to_reach_the_last_index.java) | [Problem](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) |
+| 2784 | Check If Array Is Good | [JAVA](2001-3000/2784_check_if_array_is_good.java) | [Problem](https://leetcode.com/problems/check-if-array-is-good/) |
 
 ## 3001-4000
 
