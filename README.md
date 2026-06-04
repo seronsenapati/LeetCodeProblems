@@ -5,7 +5,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
 ## Stats
-- Total Questions Solved: **37**
+- Total Questions Solved: **38**
 
 ## Quick Navigation
 - [0001-1000](#0001-1000)
@@ -69,6 +69,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 
 | Problem Number | Title | Solution | LeetCode Link |
 |---|-------|----------|---------------|
+| 3043 | Find The Length Of The Longest Common Prefix | [JAVA](3001-4000/3043_find_the_length_of_the_longest_common_prefix.java) | [Problem](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) |
 | 3629 | Minimum Jumps To Reach End Via Prime Teleportation | [JAVA](3001-4000/3629_minimum_jumps_to_reach_end_via_prime_teleportation.java) | [Problem](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/) |
 | 3660 | Jump Game Ix | [JAVA](3001-4000/3660_jump_game_ix.java) | [Problem](https://leetcode.com/problems/jump-game-ix/) |
 
