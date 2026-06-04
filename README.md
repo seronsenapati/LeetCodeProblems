@@ -4,6 +4,8 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
+Verification commit marker for GitHub contributions.
+
 ## Stats
 - Total Questions Solved: **38**
 
