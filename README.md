@@ -5,7 +5,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
 ## Stats
-- Total Questions Solved: **38**
+- Total Questions Solved: **39**
 
 ## Quick Navigation
 - [0001-1000](#0001-1000)
@@ -25,6 +25,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 18 | 4Sum | [JAVA](0001-1000/18_4sum.java) | [Problem](https://leetcode.com/problems/4sum/) |
 | 26 | Remove Duplicates From Sorted Array | [JAVA](0001-1000/26_remove_duplicates_from_sorted_array.java) | [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
 | 31 | Next Permutation | [JAVA](0001-1000/31_next_permutation.java) | [Problem](https://leetcode.com/problems/next-permutation/) |
+| 33 | Search In Rotated Sorted Array | [JAVA](0001-1000/33_search_in_rotated_sorted_array.java) | [Problem](https://leetcode.com/problems/search-in-rotated-sorted-array/) |
 | 48 | Rotate Image | [JAVA](0001-1000/48_rotate_image.java) | [Problem](https://leetcode.com/problems/rotate-image/) |
 | 53 | Maximum Subarray (Kadane's Algorithm) | [JAVA](0001-1000/53_maximum_subarray.java) | [Problem](https://leetcode.com/problems/maximum-subarray/) |
 | 54 | Spiral Matrix | [JAVA](0001-1000/54_spiral_matrix.java) | [Problem](https://leetcode.com/problems/spiral-matrix/) |
