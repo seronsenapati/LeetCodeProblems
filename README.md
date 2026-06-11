@@ -5,7 +5,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
 ## Stats
-- Total Questions Solved: **39**
+- Total Questions Solved: **40**
 
 ## Quick Navigation
 - [0001-1000](#0001-1000)
@@ -48,6 +48,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | Problem Number | Title | Solution | LeetCode Link |
 |---|-------|----------|---------------|
 | 1306 | Jump Game Iii | [JAVA](1001-2000/1306_jump_game_iii.java) | [Problem](https://leetcode.com/problems/jump-game-iii/) |
+| 1340 | Jump Game V | [JAVA](1001-2000/1340_jump_game_v.java) | [Problem](https://leetcode.com/problems/jump-game-v/) |
 | 1345 | Jump Game IV | [JAVA](1001-2000/1345_jump_game_iv.java) | [Problem](https://leetcode.com/problems/jump-game-iv/) |
 | 1665 | Minimum Initial Energy To Finish Tasks | [JAVA](1001-2000/1665_minimum_initial_energy_to_finish_tasks.java) | [Problem](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) |
 | 1674 | Minimum Moves To Make Array Complementary | [JAVA](1001-2000/1674_minimum_moves_to_make_array_complementary.java) | [Problem](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/) |
