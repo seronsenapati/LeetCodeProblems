@@ -5,7 +5,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/seronsenapati/)
 
 ## Stats
-- Total Questions Solved: **44**
+- Total Questions Solved: **45**
 
 ## Quick Navigation
 - [0001-1000](#0001-1000)
@@ -76,6 +76,7 @@ My personal LeetCode progress tracker. Solutions are automatically organized int
 | 3093 | Longest Common Suffix Queries | [JAVA](3001-4000/3093_longest_common_suffix_queries.java) | [Problem](https://leetcode.com/problems/longest-common-suffix-queries/) |
 | 3120 | Count The Number Of Special Characters I | [JAVA](3001-4000/3120_count_the_number_of_special_characters_i.java) | [Problem](https://leetcode.com/problems/count-the-number-of-special-characters-i/) |
 | 3121 | Count The Number Of Special Characters Ii | [JAVA](3001-4000/3121_count_the_number_of_special_characters_ii.java) | [Problem](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) |
+| 3300 | Minimum Element After Replacement With Digit Sum | [JAVA](3001-4000/3300_minimum_element_after_replacement_with_digit_sum.java) | [Problem](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) |
 | 3629 | Minimum Jumps To Reach End Via Prime Teleportation | [JAVA](3001-4000/3629_minimum_jumps_to_reach_end_via_prime_teleportation.java) | [Problem](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/) |
 | 3660 | Jump Game Ix | [JAVA](3001-4000/3660_jump_game_ix.java) | [Problem](https://leetcode.com/problems/jump-game-ix/) |
 
